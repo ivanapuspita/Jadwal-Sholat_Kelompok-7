@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="view.activity.JadwalSalatDetailActivity"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_gravity="center"
+    app:layout_constraintCircleRadius="20dp"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Subuh"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Value"
+        android:textColor="@color/black"
+        android:textSize="10pt" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Dzuhur"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Value"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Ashar"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Value"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Maghrib"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Isha"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Value"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Imsak"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_value6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Value"
+        android:textColor="@color/black"
+        android:textSize="10pt" />
+
+</LinearLayout>

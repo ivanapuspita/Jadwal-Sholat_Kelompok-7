@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_buttomnav_salat"
+        android:title="Jadwal Salat"
+        android:icon="@drawable/salat"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        />
+
+    <item
+        android:id="@+id/menu_buttomnav_wudhu"
+        android:title="Tata Cara Wudhu"
+        android:icon="@drawable/wudhu"
+        android:iconTint="#FFFAF0"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

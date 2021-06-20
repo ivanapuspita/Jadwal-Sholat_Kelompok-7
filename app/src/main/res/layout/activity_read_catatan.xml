@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.ReadCatatanActivity"
+    android:background="@drawable/bg01">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan Harian"
+        android:gravity="center"
+        android:background="#FF808080"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/readactivity_rv_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/itemlist_catatan" />
+
+
+</LinearLayout>

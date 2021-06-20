@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.WudhuFragment"
+    android:orientation="vertical"
+    android:background="@drawable/bg003"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TV_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TATA CARA WUDHU"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TV_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1. Niat Wudhu"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_1"
+        />
+
+    <TextView
+        android:id="@+id/TV_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Membaca Basmallah Sembari Membasuh tangan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_2"
+        />
+
+    <TextView
+        android:id="@+id/TV_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Berkumur-kumur"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_3"
+        />
+
+    <TextView
+        android:id="@+id/TV_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="4. Membersihkan Lubang Hidung"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TV_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="5. Membilas Seluruh Wajah"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_5"
+        />
+
+    <TextView
+        android:id="@+id/TV_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="6. Mencuci Kedua Tangan Hingga Siku"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_6"
+        />
+
+    <TextView
+        android:id="@+id/TV_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="7. Mengusap Kepala"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_7"
+        />
+
+    <TextView
+        android:id="@+id/TV_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="8. Membersihkan Kedua Telinga"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_8"
+        />
+
+    <TextView
+        android:id="@+id/TV_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="9. Membasuh Kaki Hingga Atas Mata Kaki"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_9"
+        />
+
+    <TextView
+        android:id="@+id/TV_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="10. Membaca Doa Wudhu"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/TV_10"
+        />
+
+
+</RelativeLayout>
