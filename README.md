@@ -1,2 +1,2 @@
-# Jadwal-Sholat_Kelompok-7
+# Jadwal-Sholat
 Proyek Akhir Praktikum Teknologi dan Pemrograman Mobile
